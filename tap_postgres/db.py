@@ -13,7 +13,7 @@ from dateutil.parser import parse
 
 LOGGER = singer.get_logger('tap_postgres')
 
-CURSOR_ITER_SIZE = 20000
+CURSOR_ITER_SIZE = 500000
 
 
 # pylint: disable=invalid-name,missing-function-docstring
